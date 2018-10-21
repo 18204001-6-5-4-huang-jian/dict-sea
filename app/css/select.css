@@ -1,0 +1,137 @@
+.box{
+	width: 100%;
+}
+.dict-title{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 120px;
+	color: #000000;
+	font-weight:300;
+}
+.input-container{
+	width:670px;
+	height: 50px;
+	line-height: 50px;
+	margin:0 auto;
+	position: relative;
+}
+.input-container .image{
+	position: absolute;
+	right: 130px;
+	top: 18px;
+}
+.search{
+	width: 550px;
+	height: 40px;
+	text-indent:10px;
+	border:2px solid #DBDBDB;
+	vertical-align: middle;
+	outline:none;
+}
+/*除谷歌浏览器下的 search叉号*/
+input::-webkit-search-cancel-button{
+  display: none;
+}
+/*清除IE下的 search叉号*/
+input[type=search]::-ms-clear{
+  display: none;
+}
+.button{
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	font-size:18px;
+	border:2px solid #DBDBDB;
+	outline:none;
+	color: #FFFFFF;
+	background-color:#3299FF !important;
+	vertical-align: middle;
+	border-left: none;
+}
+.select-box{
+	width:670px;
+	min-height:400px;
+	height:400px;
+	margin:10px auto;
+}
+.select-box .box-top{
+	width:670px;
+	overflow: hidden;
+}
+.select-box .box-top .box-left{
+	width: 100px;
+	vertical-align: top;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.select-box .box-top .box-right{
+	width: 670px;
+	/*margin-left: -10px;*/
+}
+.select-box .box-top .box-right .content{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin:10px 10px;
+	padding:0 10px;
+	border: 2px solid #CECECE;
+	background: #fff!important;
+	color: #000000!important;
+	font-family:"Microsoft YaHei"; 
+}
+.select-box .box{
+	width:670px;
+	overflow: hidden;
+}
+.select-box .box .box-left{
+	vertical-align: top;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.select-box .box .box-right{
+	width: 670px;
+	/*margin-left: -10px*/
+}
+.select-box .box .box-right .content{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	margin:10px 10px;
+	padding:0 10px;
+	background: #3299FF;
+	color: #FFFFFF;
+}
+.select-box .box .box-right .synonym-content{
+	clear: both;
+	height: 100px;
+	min-height:100px;
+	margin: 10px 10px;
+    padding: 0 10px;
+	/*border: 2px solid #CECECE; */
+}
+ .select-box .box .box-right .synonym-content .content-container-title{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	font-family:"Microsoft YaHei"; 
+}
+.select-box .box .box-right .synonym-content .content-container-synonym-item{
+	height: 40px;
+	line-height: 40px;
+	padding:3px 10px;
+	margin: 5px;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+	font-family:"Microsoft YaHei"; 
+	background: #3299FF;
+} 

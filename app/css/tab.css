@@ -1,0 +1,38 @@
+.subCtrl{
+	width: 80px;
+    height: 64px;
+    cursor: pointer;
+    float: left;
+    line-height: 64px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+	list-style:none;
+}
+.subCtrl:nth-child(1){
+    margin-left:111px;
+}
+.subCtrl:nth-child(2){
+    margin-left:40px;
+}
+.subCtrl:nth-child(3){
+    margin-left:40px;
+}
+.subCtrl:nth-child(4){
+    margin-left:40px;
+}
+.subCtrl:nth-child(5){
+    margin-left:40px;
+}
+.subCtrl:nth-child(6){
+    margin-left:40px;
+}
+.subCtrl:nth-child(7){
+    margin-left:40px;
+}
+.active{
+    font-size: 18px;
+    font-weight: 400;
+	color: #33C3F0;
+	border-bottom: 2px solid #33C3F0;
+}

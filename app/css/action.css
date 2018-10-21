@@ -1,0 +1,48 @@
+/* 覆盖Modal弹出框 */
+.ant-modal-footer{
+  margin-top: 60px !important;
+}
+.ant-modal-title{
+  text-align: center;
+}
+.anticon-cloud-upload-o{
+  font-size: 60px !important;
+}
+.uploadContainer{
+  margin:  0 auto;
+}
+.ant-modal-content{
+  top: 150px;
+}
+.anticon-{
+  width:74px;
+  height:60px;
+  display: inline-block;
+  background:url(../images/upload.png) no-repeat;
+}
+.DatePicker-container{
+  width:95%;
+  margin-top:10px;
+}
+.ant-input{
+  text-indent: 10px !important;
+  padding: 0 !important;
+}
+
+.inputBox .ant-input {
+  text-indent: 40px !important;
+  border: none !important;
+  /* outline:none !important; */
+  box-shadow: none !important;
+  border-bottom: 1px solid #e6e6e6 !important;
+  background: url(../images/message.png) 5px no-repeat;
+}
+
+.span{
+  display:inline-block;
+  width:50px;
+  height:30px;
+  line-height: 30px;
+  text-align:center;
+  font-weight:bold;
+}

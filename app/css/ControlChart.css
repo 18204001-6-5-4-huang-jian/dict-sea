@@ -1,0 +1,156 @@
+.controllContainer{
+	width: 100%;
+	/*height: 100%;*/
+ }
+.controllContainer .head {
+	width: 100%;
+	background: #333333;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.controllContainer .head .dicHead {
+	width: 90%;
+	height: 64px;
+	background: #333333;
+	margin: 0 auto;
+}
+.controllContainer .head .dicHead div {
+	cursor: pointer;
+}
+.controllContainer .head .dicHead .manager {
+	width: 9.5%;
+	height: 33px;
+	margin-left: 3.5%;
+	margin-top: 15px;
+	font-size: 20px;
+	color: #ffffff;
+	float: left;
+	position: relative;
+	left: -6%;
+}
+  
+.controllContainer .tab:nth-child(2){
+	margin-left:1.5%;
+}
+.controllContainer .tab:nth-child(3){
+	margin-left:3.5%;
+}
+.controllContainer .tab:nth-child(4){
+	margin-left:3.5%;
+}
+.controllContainer .tab:nth-child(5){
+	margin-left:3.5%;
+}
+.controllContainer .tab:nth-child(6){
+	margin-left:3.5%;
+}
+.controllContainer .tab:nth-child(7){
+	margin-left:3%;
+}
+
+ .controllContainer  .container{
+	 display:block;
+	 width:100%;
+	 height: auto;
+ }
+ .controllContainer  .container .sideTabbar{
+	 width: 15%;
+	 /* height: 920px; */
+	 height: 1840px;
+	 float: left;
+	 color: #FFFFFF;
+	 background:#13182E;
+ }
+ .controllContainer  .container .chartContainer{
+	 width: 85%;
+	 /* height: 920px; */
+	 height: 1840px;
+	 float: left;
+	 overflow: hidden;
+	 background:#F8F8F8;
+ }
+ .controllContainer .container .sideTabbar .tabbarList{
+	 width: 100%;
+	 height: 40px;
+	 line-height:40px;
+	 /* text-align: center; */
+	 text-indent:22%;
+	 cursor: pointer;
+	 font-size: 16px;
+ }
+ .controllContainer .container .sideTabbar .tabbarListClick{
+     width: 100%;
+	 height: 40px;
+	 line-height:40px;
+	 /* text-align: center; */
+	 text-indent: 22%;
+	 cursor: pointer;
+	 font-size: 16px;
+	 background:#0069D1;
+ }
+ .controllContainer  .container .sideTabbar .tabbarList:hover{
+	 background: #0069D1;
+	 color: #FFFFFF;
+ }
+ /* 图表容器 */
+ .chartInnerContainer {
+	width: 98%;
+	float: left;
+	margin: 15px 10px 10px 10px;
+	box-sizing: border-box;
+	padding-right: 5px;
+	box-sizing: border-box !important;
+ }
+ .eachChartLeft{
+	 width: 49%;
+	 display: block;
+	 float: left;
+	 margin-top: 15px;
+	 margin-bottom: 5px;
+	 /* margin-left:10px; */
+	 /* box-shadow: 1px 1px 5px 5px #EDEDED; */
+	 border: 2px solid #EDEDED;
+ }
+ .eachChartRight{
+	 width: 49%;
+	 display: block;
+	 float: right;	 
+	 margin-top: 15px;
+	 /* margin-right:10px; */
+	 margin-bottom: 5px;
+/*  */
+	 /* box-shadow: 1px 1px 5px 5px #EDEDED; */
+	 border: 2px solid #EDEDED;
+ }
+ .eachChartBottom {
+	width:100%;
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #EDEDED;
+	/* border:1px solid red; */
+ }
+ .time-line{
+	 width:100%;
+	 float: left;
+	 height: 40px;
+	 line-height:40px; 
+	 text-align: center;
+	 font-family: 'Courier New', Courier, monospace;
+	 color:#000000;
+	 font-weight:bold;
+	 user-select: none;
+	 -webkit-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+ }
+ .time-line-span{
+	display: inline;
+	width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+	font-weight: bold;
+	margin:0 10px;
+ }
+ 

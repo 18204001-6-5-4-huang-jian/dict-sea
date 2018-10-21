@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box!important
+}
+p {
+  margin-bottom: 0!important
+}
+
+.dicManager {
+  width: 100%;
+  background: #4a5966;
+}
+/*头部样式设置*/
+.head {
+  width: 100%;
+  background: #333;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.head .dicHead {
+  width: 90%;
+  height: 64px;
+  background: #333333;
+  margin: 0 auto;
+}
+.head .dicHead div {
+  cursor: pointer;
+}
+.head .dicHead .manager {
+  width: 9.5%;
+  height: 33px;
+  margin-left: 3.5%;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  float: left;
+}
+/*头部tab栏内容设置*/
+.head .dicHead .tab{
+  width: 5%;
+  height: 62px;
+  cursor: pointer;
+  float: left;
+  line-height: 64px;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  text-decoration: none;
+}
+.tab:nth-child(1) {
+  margin-left: 111px;
+}
+.tab:nth-child(2){
+  margin-left:3%;
+}
+.tab:nth-child(3){
+  margin-left:3%;
+}
+.tab:nth-child(4){
+  margin-left:3%;
+}
+.tab:nth-child(5){
+  margin-left:3%;
+}
+.tab:nth-child(6){
+  margin-left:3%;
+}
+.tab:nth-child(7){
+  margin-left:3%;
+}
+.head .dicHead .tab:hover {
+  color: #33c3f0;
+  border-bottom: 2px solid #33c3f0;
+}
+/* Link点击的tab颜色 */
+.head .dicHead .tab.active {
+  color: #33c3f0!important;
+  border-bottom: 2px solid #33c3f0;
+  font-weight: bold;
+}
+/*头部搜索框设置*/
+.dicHead .searchdic {
+  width: 15%;
+  height: 40px;
+  float: left;
+  margin-left: 4%;
+  margin-top: 15px;
+  position: relative;
+}
+.head .dicHead .searchdic input {
+  width: 100%;
+  height: 10px;
+  border: 2px solid #949494;
+  border-radius: 6px;
+  background: #333;
+  padding: 12px 10px;
+  font-size: 14px;
+  color: #cfcfcf;
+  outline: none;
+  box-sizing: content-box
+}
+.head .dicHead .searchdic .pic {
+  position: absolute;
+  top: 8px;
+  right: -10px;
+}
+.head .dicHead .icon {
+  width: 50px;
+  height: 20px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 5%;
+  cursor: pointer;
+  background-image: url(../images/preview6.png);
+  background-repeat: no-repeat;
+  background-size: 50px 20px;
+}
+.head .dicHead .username {
+  /*width: 42px;*/
+  height: 20px;
+  line-height: 20px;
+  float: left;
+  margin-top: 23px;
+  margin-left: 5px;
+  /*border: 1px solid #979797;*/
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  box-sizing:content-box;
+  padding: 0 3px;
+}
+.head .dicHead .usernamelogo{
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-top: 33px;
+  margin-left:3px;
+  background:url(../images/arrows.png);
+  background-repeat:no-repeat;
+}
+/*数据展示区域*/
+.dicManager .dataShow {
+  width: 1332px;
+  height: 284px;
+  margin: auto;
+  margin-top: 33px;
+  background-image: linear-gradient(-269deg, #3f8cff 0%,#4ca6d6 95%); 
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 14px;
+}
+.dicManager .dataShow .top {
+  width: 1332px;
+  height: 208px;
+  background-image: linear-gradient(-269deg, #3f8cff 0%,#4ca6d6 95%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.dicManager .dataShow .top .left {
+  width: 385px;
+  /* height: 208px; */
+  height: 168px;
+  float: left;
+  margin-left: 217px;
+  margin-top: 20px;
+}
+.dicManager .dataShow .top .left .dicTotal {
+  width: 385px;
+  height: 90px;
+  text-align: center;
+  font-size: 64px;
+  color: #ffc900;
+  line-height: 90px;
+  letter-spacing: 15px;
+  font-weight: 700;
+}
+.dicManager .dataShow .top .left p:nth-child(2) {
+  width: 240px;
+  height: 56px;
+  text-align: center;
+  margin-left: 64px;
+  margin-top: 5px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.dicManager .dataShow .center {
+  float: left;
+  width: 148px;
+  height: 148px;
+  margin-left: 88px;
+  margin-top: 35.5px;
+  background-image: url(../images/preview8.png);
+  background-repeat: no-repeat;
+
+  font-size: 30px;
+  color: #fff;
+  line-height: 148px;
+  text-align: center;
+}
+.dicManager .dataShow .right {
+  float: left;
+  width: 332px;
+  margin-left: 42px;
+  margin-top: 50px;
+}
+.dicManager .dataShow .right p:nth-child(1) {
+  height: 28px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.dicManager .dataShow .right div {
+  height: 22px;
+  margin-top: 19px;
+}
+.dicManager .dataShow .right div p:nth-child(2) {
+ 
+  height: 22px;
+  line-height: 22px;
+  margin-left: 66px;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 8px;
+}
+.dicManager .dataShow .right div:nth-child(2) .rate {
+  width: 66px;
+  height: 25px;
+  float: left;
+  line-height: 25px;
+  text-align: center;
+  background: #0069fd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.dicManager .dataShow .right div:nth-child(3) .rate {
+  width: 66px;
+  height: 25px;
+  float: left;
+  line-height: 25px;
+  text-align: center;
+  background: #f02e18;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.dicManager .dataShow .right div:nth-child(4) .rate {
+  width: 46px;
+  height: 25px;
+  float: left;
+  line-height: 25px;
+  margin-top: 20px;
+  text-align: center;
+  background: #f02e18;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/*中间空底部白色区域内容*/
+.dicManager .dataShow .bottom {
+  width: 1332px;
+  height: 76px;
+  background: #ffffff;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.dicManager .dataShow .bottom .left {
+  width: 200px;
+  height: 33px;
+  float: left;
+  margin-top: 31px;
+  margin-left: 300px;
+}
+.dicManager .dataShow .bottom .right {
+  width: 220px;
+  height: 33px;
+  float: left;
+  margin-left: 300px;
+  margin-top: 31px;
+}
+.dicManager .dataShow .bottom .left span:nth-child(1) {
+  width: 91px;
+  height: 25px;
+  line-height: 25px;
+  display: block;
+  font-size: 18px;
+  color: #7e7e7e;
+  float: left;
+}
+.dicManager .dataShow .bottom .left span:nth-child(2) {
+  width: 68px;
+  height: 33px;
+  line-height: 33px;
+  display: block;
+  margin-top: -5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #444444;
+  float: left;
+}
+.dicManager .dataShow .bottom .right span:nth-child(1) {
+  width: 119px;
+  height: 25px;
+  line-height: 25px;
+  display: block;
+  font-size: 18px;
+  color: #7e7e7e;
+  float: left;
+}
+.dicManager .dataShow .bottom .right span:nth-child(2) {
+  width: 53px;
+  height: 33px;
+  line-height: 33px;
+  display: block;
+  margin-top: -5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #444444;
+  float: left;
+}
+/*
+主要内容小卡片部分*/
+.dicManager .main {
+  width: 1332px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #4a5966;
+  padding-bottom: 50px;
+}
+
+.dicManager .main:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.dicManager .main .container {
+  width: 19%;
+  display: inline-block;
+  background: #51687c;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-image: url(../images/preview1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 126px;
+  background-position: 0 55px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 72px;
+  margin-right: 105px;
+  text-decoration: none;
+}
+.dicManager .main .container:nth-child(4n) {
+  margin-right: 0;
+}
+.dicManager .main .container:hover {
+  background: #267cf7;
+  background-image: url("../images/preview2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 126px;
+  background-position: 0 55px;
+  box-shadow: 0 2px 24px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dicManager .main .container .top {
+  width: 100%;
+  height: 126px;
+}
+
+.dicManager .main .container .main_title {
+  font-size: 16px;
+  color: #ffffff;
+  width: 100%;
+  height: 22px;
+  margin-left: 16px;
+  margin-top: 9px;
+}
+.dicManager .main .container .main_title:nth-child(-n + 4) {
+  letter-spacing: 7px;
+}
+.dicManager .main .container .top p:nth-child(1) {
+  width: 101px;
+  height: 42px;
+  margin-left: 75px;
+  margin-top: 25px;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+.dicManager .main .container .top p:nth-child(2) {
+  width: 56px;
+  height: 20px;
+  margin-left: 94px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.dicManager .main .container .bottom {
+  width: 253px;
+  height: 70px;
+  background: #ffffff;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.dicManager .main .container .bottom .left {
+  height: 53px;
+  float: left;
+  margin: 8px 30px 0 32px;
+}
+.dicManager .main .container .bottom .middle {
+  height: 53px;
+  float: left;
+  margin-top: 8px;
+  border-right: 1px solid #ECECEC;
+}
+.dicManager .main .container .bottom .left span:nth-child(1) {
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444444;
+}
+.dicManager .main .container .bottom .left .span {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #7e7e7e;
+}
+.dicManager .main .container .bottom .right {
+  width: 85px;
+  height: 53px;
+  float: left;
+  margin-left: 27px;
+  margin-top: 8px;
+}
+.dicManager .main .container .bottom .right span:nth-child(1) {
+  display: inline-block;
+  width: 85px;
+  height: 28px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444444;
+}
+.dicManager .main .container .bottom .right .span {
+  display: inline-block;
+  width: 85px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #7e7e7e;
+}

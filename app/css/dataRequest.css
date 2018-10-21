@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dataRequest{
+    width: 100%;
+    background: #fff;
+}
+.dataRequest_title{
+    width: 1440px;
+    height: 90px;
+    background: #F3F3F3;
+    margin: 0 auto;
+}
+.dataRequest_title .left{
+    height: 90px;
+    line-height: 90px;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 30px;
+    float: left;
+}
+.dataRequest_title .return{
+    height: 90px;
+    font-size: 16px;
+    color: #0069D1;
+    line-height: 90px;
+    float: left;
+    margin-left:55px;
+}
+.dataRequest_title .return a{
+    text-decoration: none;
+}
+.dataRequest_title .line{
+    font-size: 18px;
+    color: #000000;
+    line-height: 90px;
+    float: left;
+    margin-left: 25px;
+    
+
+}
+
+.dataRequest  .container{
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 160px;
+   
+}
+ .dataRequest  .container .form{
+    width: 1260px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.dataRequest  .container .form .left{
+    width: 85px;
+    height: 40px;
+    font-size: 16px;
+    color: #111111;
+    line-height:40px;
+    float: left;
+    letter-spacing:1px;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.dataRequest  .container .form  input{
+    margin-left: 10px;
+    width: 1130px;
+    height: 40px;
+    background: #F5F8FB;
+    border: 1px solid #E2E7F3;
+    font-size: 14px;
+    color: #787878;
+    line-height: 40px;
+    outline: none;
+    padding-left:25px;
+    float: left;
+    margin-top: 25px;
+}
+
+.dataRequest  .container .select_left{
+    width: 85px;
+    height: 40px;
+    font-size: 16px;
+    color: #111111;
+    line-height: 40px;
+    text-align: right;
+    float: left;
+    margin-top: 25px;
+}
+.dataRequest  .container .select_right{
+    width: 355px;
+    height: 40px;
+    margin-left: 10px;
+    background: #F5F8FB;
+    border: 1px solid #E2E7F3;
+    font-size: 14px;
+    color: #787878;
+    line-height: 40px;
+    outline: none;
+    padding-left:25px;
+    margin-top: 25px;
+}
+.dataRequest  .container .create {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #3299FF;
+    border: 2px solid #3299FF;
+    border-radius: 2px !important;
+    cursor: pointer;
+    padding-top: -10px;
+    border-radius: 5px;
+    float:right;
+    margin-top:-44px;
+    margin-right:26px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    /* letter-spacing:10px; */
+}

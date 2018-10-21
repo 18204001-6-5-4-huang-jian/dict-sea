@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .demandList {
+    width: 100%;
+    background: #fff;
+  }
+  
+  .demandList .head {
+    width: 100%;
+    background: #333333;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  .demandList .head .dicHead {
+    width: 90%;
+    height: 64px;
+    background: #333333;
+    margin: 0 auto;
+  }
+  .demandList .head .dicHead div {
+    cursor: pointer;
+  }
+  .demandList .head .dicHead .manager {
+    width: 9.5%;
+    height: 33px;
+    margin-left: 3.5%;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+  }
+  /*头部tab栏内容设置*/
+  .demandList .head .dicHead .tab{
+    width: 5%;
+    height: 62px;
+    cursor: pointer;
+    float: left;
+    line-height: 64px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+  }
+  .demandList .tab:nth-child(1) {
+    margin-left: 111px;
+  }
+  .demandList .tab:nth-child(2){
+    margin-left:3%;
+  }
+  .demandList .tab:nth-child(3){
+    margin-left:3%;
+  }
+  .demandList .tab:nth-child(4){
+    margin-left:3%;
+  }
+  .demandList .tab:nth-child(5){
+    margin-left:3%;
+  }
+  .demandList .tab:nth-child(6){
+    margin-left:3%;
+  }
+  .demandList .tab:nth-child(7){
+    margin-left:3%;
+  }
+  
+  .demandList .head .dicHead .tab:hover {
+    color: #33c3f0;
+    border-bottom: 2px solid #33c3f0;
+  }
+  .demandList .head .dicHead .icon {
+    width: 50px;
+    height: 20px;
+    float: left;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  .demandList .head .dicHead .username {
+    width: 42px;
+    height: 20px;
+    float: left;
+    margin-top: 23px;
+    /* border: 1px solid #979797; */
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  /*搜索框部分*/
+  .demandList .search {
+    width: 98%;
+    height: 98px;
+    margin: 0 auto;
+    border: none;
+  }
+  .demandList .search .left {
+    height: 98px;
+    font-size: 18px;
+    color: #000000;
+    line-height: 98px;
+    float: left;
+  }
+  .demandList .search .searchBar {
+    width: 309px;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .demandList .search .searchBar input {
+    width: 298px;
+    height: 36px;
+    border: 2px solid #3299ff;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #7a7a7a;
+    padding-left: 11px;
+    outline: none;
+  }
+  .demandList .search .searchBar img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    display: block;
+    right:-3px;
+    top: 9px;
+  }
+  .demandList .search .right {
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #3299ff;
+    border: 2px solid #3299ff;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 21px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  /*列表内容部分*/
+  .demandList .list {
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .demandList .list .container {
+    width: 1440px;
+    height: 40px;
+    background: #ddeeff;
+  }
+  .demandList .list .container li {
+    width: 205px;
+    height: 40px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    list-style: none;
+  }
+  
+  .demandList .list .container .prior {
+    position: absolute;
+    left: 750px;
+    top: 0;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/list1.png);
+    background-repeat: no-repeat;
+    background-size: 16px 8px;
+    background-position: 0 16px;
+    float: left;
+  }
+  
+  .demandList .list .container .cur {
+    position: absolute;
+    left: 1368px;
+    top: 0;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/list1.png);
+    background-repeat: no-repeat;
+    background-size: 16px 8px;
+    background-position: 0 16px;
+    display: block;
+    float: left;
+  }
+  
+  .demandList .list .content {
+    width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .demandList .list .content:nth-child(Odd) {
+    background: #f3f8fe;
+  }
+  .demandList .list .content li {
+    width: 205px;
+    height: 40px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    list-style: none;
+  }
+  
+  .demandList .list .level {
+    width: 80px;
+    height: 134px;
+    position: absolute;
+    top: 40px;
+    left: 684px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    /*display: none;*/
+  }
+  .demandList .list .level p {
+    width: 80px;
+    height: 40px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .demandList .list .current {
+    width: 120px;
+    height: 134px;
+    position: absolute;
+    top: 40px;
+    right: 36px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    /*display: none;*/
+  }
+  .demandList .list .current p {
+    width: 120px;
+    height: 40px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .demandList .list .level p:hover,
+  .current p:hover {
+    background: #3299ff;
+    color:#fff;
+  }
+  .demandList .list .level p:nth-child(2),
+  p:nth-child(3) {
+    margin-top: 10px;
+  }
+  .demandList .list .current p:nth-child(2),
+  p:nth-child(3) {
+    margin-top: 10px;
+  }
+  .checkbox {
+    vertical-align: middle;
+  }
+  
+  /*底部分页跳转*/
+  .demandList .bottom {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 500px;
+    margin-bottom: 31px;
+  }
+  .demandList .bottom .beforePage,
+  .afterPage {
+    width: 66px;
+    height: 30px;
+    border: 1px solid #b9b9b9;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #5b5b5b;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    background: #fff;
+  }
+  .demandList .bottom .pageNumber {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 20px;
+    float: left;
+  }
+  .demandList .bottom .pageNumber li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #5b5b5b;
+    float: left;
+    margin-right: 5px;
+    list-style: none;
+  }
+  .demandList .bottom .searchPage {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    float: left;
+  }
+  .demandList .bottom .searchPage input {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b9b9b9;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .demandList .bottom .jump {
+    width: 32px;
+    height: 22px;
+    float: left;
+    font-size: 16px;
+    color: #5b5b5b;
+    text-align: center;
+    line-height: 32px;
+  }
+  .demandList td,.demandList th{
+      text-align: center !important;
+  }
+/* Add */
+.managementContainer{
+    margin: 0 auto;
+}
+.headImage{
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: url(../images/head-portrait.png) no-repeat;
+  background-size: 30px;
+  border-radius: 50%;
+}
+._span{
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  background: #3299ff;
+  color:#ffffff;
+  border-radius: 5px;
+}
+.delete_span{
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border:1px solid gray;
+  border-radius: 5px;
+}
+
+.delete_span:hover {
+  background: #EF6649;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #f7f4f4 !important;
+}
+
+.ant-modal-footer {
+  border-top: 1px solid #f7f4f4 !important;
+}

@@ -1,0 +1,72 @@
+.user{
+	width: 30px;
+	height: 30px;
+	margin-top:20px;
+	border-radius: 50%;
+	background: url(../images/head-portrait.png) no-repeat;
+	background-size: 30px;
+	float: left;
+	margin-left:3%;
+}
+.userInfo{
+	width: 230px;
+	height: 350px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 64px;
+	right: 30px;
+	z-index: 9999;
+	border: 1px solid #b4b4b4;
+	/* display: flex */
+}
+.userManager{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid red;
+	font-size: 14px;
+	color: red;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 2px;
+}
+.userlogo{
+	width: 76px;
+	height: 76px;
+	background: url(../images/head-portrait-big.png) no-repeat;
+	background-size: 76px;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top: 70px;
+}
+.user-name {
+	width: 100%;
+	text-align:center;
+	font-size: 18px;
+	color: #4D4D4D;
+	margin-top:30px;
+}
+
+.user-email	 {
+	text-align: center;
+	font-size: 16px;
+	color: #676767;
+	margin-top: 20px;
+}
+.user-logout {
+	display: block;
+	border: 1px solid #979797;
+	border-radius: 4px;
+	text-align: center;
+	margin:0 auto;
+	font-size: 14px;
+	color: #979797;
+	width: 183px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 50px;
+	border: 1px solid #979797;
+    border-radius: 4px;
+}
